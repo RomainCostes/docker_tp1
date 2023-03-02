@@ -43,5 +43,7 @@ comportement ?</h3>
 <h3>c. Dans quelle situation réelles (avec quelles images) pourrait-on avoir cette configuration réseau ? Dans quel but ?</h3>
 
 
+<strong style="color: red; font-size: 100px;">
 Le compte rendu du TP doit être déposé sur moodle par chacun des membres du
 groupe au format GIT le 9 mars 2023 au plus tard.
+</strong>
