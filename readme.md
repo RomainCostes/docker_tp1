@@ -1,12 +1,12 @@
-TP1
+<h1>TP1</h1>
 
-5. Exécuter un serveur web (apache, nginx, …) dans un conteneur docker
-   a. Récupérer l’image sur le Docker Hub
-<code>docker pull nginx</code>
-b. Vérifier que cette image est présente en local
-<code>docker images -a</code>
-c. Créer un fichier index.html simple
--> touch index.html
+<h2>5. Exécuter un serveur web (apache, nginx, …) dans un conteneur docker</h2>
+   <h3>a. Récupérer l’image sur le Docker Hub</h3>
+        <code>docker pull nginx</code>
+    <h3>b. Vérifier que cette image est présente en local</h3>
+        <code>docker images -a</code>
+    <h3>c. Créer un fichier index.html simple</h3>
+        <code>touch index.html</code>
 d. Démarrer un conteneur et servir la page html créée précédemment à l’aide
 d’un volume (option -v de docker run)
 -> docker run -d -p 80:80 -v C:/Users/romai/Documents/Ynov/MASTER2/DOCKER:/usr/share/nginx/html nginx
@@ -16,7 +16,7 @@ précédemment à l’aide de la commande docker cp
 -> docker run -d -p 80:80 --name mon_conteneur nginx
 -> docker cp ./index.html mon_conteneur:/usr/share/nginx/html/
 
-1. Builder une image
+<h2>6. Builder une image</h2>
 a. A l’aide d’un Dockerfile, créer une image (commande docker build)
 >
 b. Exécuter cette nouvelle image de manière à servir la page html (commande
