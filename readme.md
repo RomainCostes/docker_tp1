@@ -8,7 +8,7 @@
     <h3>c. Créer un fichier index.html simple</h3>
         <code>touch index.html</code>
     <h3>d. Démarrer un conteneur et servir la page html créée précédemment à l’aide d’un volume (option -v de docker run)</h3>
-        <code>docker run -d -p 80:80 -v C:/Users/romai/Documents/Ynov/MASTER2/DOCKER:/usr/share/nginx/html nginx</code>
+        <code>docker run -d -p 80:80 -v C:/Users/romai/Documents/Ynov/MASTER2/DOCKER/docker_tp1:/usr/share/nginx/html ngin</code>
     <h3>e. Supprimer le conteneur précédent et arriver au même résultat que
 précédemment à l’aide de la commande docker cp</h3>
         <code>docker stop [ID_docker]</code><br>
