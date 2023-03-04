@@ -29,7 +29,7 @@ Docker Hub</h3>
         <code>docker pull mysql:5.7</code><br>
         <code>docker pull phpmyadmin/phpmyadmin</code>
     <h3>b. Exécuter deux conteneurs à partir des images et ajouter une table ainsi que quelques enregistrements dans la base de données à l’aide de phpmyadmin</h3>
-        <code>docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:5.7</code>
+        <code>docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:5.7</code><br>
         <code>docker run --name my-phpmyadmin -d --link my-mysql:db -p 8080:80 phpmyadmin/phpmyadmin</code>
 
 <h2>8. Faire la même chose que précédemment en utilisant un fichier
