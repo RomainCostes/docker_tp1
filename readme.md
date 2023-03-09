@@ -38,8 +38,10 @@ Docker Hub</h3>
 docker-compose.yml </h2>
     <h3>a. Qu’apporte le fichier docker-compose par rapport aux commandes docker run
 ? Pourquoi est-il intéressant ? (cf. ce qui a été présenté pendant le cours)</h3>
+        <code>docker compose permet d'executer (et de parametrer) toutes les commandes Docker d'un coup</code>
     <h3>b. Quel moyen permet de configurer (premier utilisateur, première base de
 données, mot de passe root, …) facilement le conteneur mysql au lancement ?</h3>
+        <code>Dans un service db on défini les variables d'environnements qui seront utilisées avec la commande docker-comppose up</code>
 
 <h2>9. Observation de l’isolation réseau entre 3 conteneurs</h2>
     <h3>a. A l’aide de docker-compose et de l’image praqma/network-multitool
@@ -47,9 +49,12 @@ disponible sur le Docker Hub créer 3 services (web, app et db) et 2 réseaux
 (frontend et backend).
 Les services web et db ne devront pas pouvoir effectuer de ping de l’un vers
 l’autre</h3>
+        <code></code>
     <h3>b. Quelles lignes du résultat de la commande docker inspect justifient ce
 comportement ?</h3>
+        <code></code>
     <h3>c. Dans quelle situation réelles (avec quelles images) pourrait-on avoir cette configuration réseau ? Dans quel but ?</h3>
+        <code></code>
 
 
 <strong>
